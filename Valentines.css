@@ -5,7 +5,7 @@ body {
     min-height: 100%;
     background-image: url('./images/mein_valentines2.jpeg');
     background-repeat: no-repeat center center;
-    background-size: cover;
+    background-size: contain;
     background-position-x: 200px;
 }
 
