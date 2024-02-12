@@ -1,0 +1,453 @@
+body {
+    background-color: azure;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background-image: url('./images/mein_valentines2.jpeg');
+    background-repeat: no-repeat center center;
+    background-size: cover;
+    background-position-x: 200px;
+}
+
+#yes {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 300%;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+    height: fit-content;
+    width: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px 0px 0px 30px;
+    border-left: 5px solid gray;
+    border-right: 5px solid gray;
+    border-bottom: 5px solid gray;
+    box-shadow: inset 0 0 0 0 greenyellow;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+    animation: fadeInAnimation ease-in 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#yes:hover {
+    box-shadow: inset 150px 0 0 0 greenyellow;
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#no {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 300%;
+    text-align: center;
+    height: fit-content;
+    color: aliceblue;
+    width: 150px;
+    margin-left: 0%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px 0px 30px 0px;
+    border-left: 5px solid gray;
+    border-right: 5px solid gray;
+    border-bottom: 5px solid gray;
+    font-weight: bold;
+    box-shadow: inset 0 0 0 0 red;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+    animation: fadeInAnimation ease-in 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#no2 {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    font-size: 300%;
+    text-align: center;
+    height: fit-content;
+    color: aliceblue;
+    width: 150px;
+    margin-left: 0%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px 0px 30px 0px;
+    border-left: 5px solid gray;
+    border-right: 5px solid gray;
+    border-bottom: 5px solid gray;
+    font-weight: bold;
+    box-shadow: inset 0 0 0 0 red;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+    visibility: hidden;
+    display: none;
+}
+
+#no3 {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 300%;
+    text-align: center;
+    height: fit-content;
+    color: aliceblue;
+    width: 150px;
+    margin-left: 0%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px 0px 30px 0px;
+    border-left: 5px solid gray;
+    border-right: 5px solid gray;
+    border-bottom: 5px solid gray;
+    font-weight: bold;
+    box-shadow: inset 0 0 0 0 red;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+    visibility: hidden;
+    display: none;
+}
+
+#no4 {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 300%;
+    text-align: center;
+    height: fit-content;
+    color: aliceblue;
+    width: 150px;
+    margin-left: 0%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px 0px 30px 0px;
+    border-left: 5px solid gray;
+    border-right: 5px solid gray;
+    border-bottom: 5px solid gray;
+    font-weight: bold;
+    box-shadow: inset 0 0 0 0 red;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+    animation: fadeInAnimation ease-in 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    display: none;
+}
+
+#no:hover {
+    box-shadow: inset 150px 0px 0px 0px red;
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#no2:hover {
+    box-shadow: inset 150px 0px 0px 0px red;
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#no3:hover {
+    box-shadow: inset 150px 0px 0px 0px red;
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#no4:hover {
+    box-shadow: inset 150px 0 0 0 greenyellow;
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#no4:after {
+    content: "No";
+}
+
+#no4:hover:after {
+    content: "Yes";
+}
+
+#meow {
+    width: 300px;
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 150px;
+    margin-bottom: 0%;
+    border: 5px solid gray;
+    border-radius: 30px 30px 0px 0px;
+    background-color: azure;
+    visibility: hidden;
+    display: none;
+}
+
+#meow2 {
+    width: 300px;
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 150px;
+    margin-bottom: 0%;
+    border: 5px solid gray;
+    border-radius: 30px 30px 0px 0px;
+    background-color: azure;
+    visibility: hidden;
+    display: none;
+}
+
+#meow3 {
+    width: 300px;
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 150px;
+    margin-bottom: 0%;
+    border: 5px solid gray;
+    border-radius: 30px 30px 0px 0px;
+    background-color: azure;
+    visibility: hidden;
+    display: none;
+}
+
+#meow4 {
+    width: 300px;
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 150px;
+    margin-bottom: 0%;
+    border: 5px solid gray;
+    border-radius: 30px 30px 0px 0px;
+    background-color: azure;
+    visibility: hidden;
+    display: none;
+}
+
+#meow5 {
+    width: 300px;
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 150px;
+    margin-bottom: 0%;
+    border: 5px solid gray;
+    border-radius: 30px 30px 0px 0px;
+    background-color: azure;
+    visibility: hidden;
+    display: none;
+}
+
+#meow6 {
+    width: 300px;
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 150px;
+    margin-bottom: 0%;
+    border: 5px solid gray;
+    border-radius: 30px 30px 0px 0px;
+    background-color: azure;
+    visibility: hidden;
+    display: none;
+}
+
+#meow7 {
+    width: 300px;
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 150px;
+    margin-bottom: 0%;
+    border: 5px solid gray;
+    border-radius: 30px 30px 0px 0px;
+    background-color: azure;
+    visibility: hidden;
+    display: none;
+}
+
+#meow8 {
+    width: 300px;
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 150px;
+    margin-bottom: 0%;
+    border: 5px solid gray;
+    border-radius: 30px 30px 0px 0px;
+    background-color: azure;
+    visibility: hidden;
+    display: none;
+}
+
+#buttons {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#txt_box {
+    width: 300px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    background-color: black;
+    opacity: 70%;
+    border: 5px solid gray;
+    border-radius: 30px 30px 0px 0px;
+    animation: fadeInAnimation ease-in 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+#box {
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#text1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    padding-top: auto;
+    padding-bottom: auto;
+    top: 50%;
+}
+
+#me {
+    height: 125px;
+    width: auto;
+    margin-right: auto;
+    margin-left: 0%;
+    display: block;
+    border-radius: 2250px 1250px 5000px 0px;
+    border-right: 5px solid white;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    box-shadow: 0px 0px 30px 10px pink;
+}
+
+@-webkit-keyframes me {
+    100% { left: 0; }
+}
+
+@keyframes me {
+    100% { left: 0; }
+}
+
+#my_coco {
+    height: 125px;
+    width: auto;
+    margin-right: 0%;
+    margin-left: auto;
+    display: block;
+    border-radius: 1250px 2250px 0px 5000px;
+    box-shadow: red;
+    border-left: 5px solid white;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    box-shadow: 0px 0px 40px 10px pink;
+}
+
+#MEOW {
+    height: 50px;
+    width: auto;
+    margin-left: 0%;
+    display: block;
+    margin-top: 80px;
+}
+
+#accept_img {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin-right: auto;
+    margin-left: 100px;
+    padding-top: 70px;
+}
+
+#valentines_proposal {
+    height: 400px;
+    width: 600px;
+    background-color: antiquewhite;
+    background-image: url('./images/rose_backgrd.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 150px;
+    border-top: 7px solid black;
+    border-bottom: 7px solid black;
+    border-left: 7px solid gray;
+    border-right: 7px solid gray;
+    animation: fadeInAnimation ease-in 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    display: none;
+}
+
+#Confetti {
+    visibility: hidden;
+    display: none;
+}
+
+#prop_text {
+    display: inline-block;
+    width: 310px;
+    height: fit-content;
+    text-align: center;
+    line-height: 200%;
+    margin-left: 190px;
+}
+
+#larger_text {
+    animation: fadeInAnimation ease-in 2.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#smaller_text {
+    animation: fadeInAnimation ease-in 3.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    font-size: 16px;
+    line-height: 120%;
+}
